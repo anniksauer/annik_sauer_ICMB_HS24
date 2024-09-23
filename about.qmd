@@ -1,0 +1,6 @@
+---
+title: "About"
+---
+
+This website contains assignments for 'Introduction to Computational Modeling of Behavior'
+

@@ -1,11 +1,16 @@
 ---
-title: "annik_sauer_ICMB_HS24"
+title: "ICMB_Assignment_1"
+author: "Annik Sauer"
 ---
 
-This is a Quarto website.
+#Assignment 1 for Introduction to Computational Modeling of Behavior.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+-   This my first assignment.
+
+-   I plotted a simple histogram.
 
 ```{r}
-1 + 1
+# R code goes here
+x <- rnorm(10000, mean = 100, sd = 15)
+hist(x)
 ```
