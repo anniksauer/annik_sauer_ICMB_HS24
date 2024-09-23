@@ -1,9 +1,9 @@
 ---
-title: "ICMB_Assignment_1"
+title: "Assignment 1"
 author: "Annik Sauer"
 ---
 
-#Assignment 1 for Introduction to Computational Modeling of Behavior.
+Assignment 1 for Introduction to Computational Modeling of Behavior.
 
 -   This my first assignment.
 

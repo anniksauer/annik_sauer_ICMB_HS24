@@ -1,0 +1,40 @@
+project:
+  type: website
+  execute-dir: project
+  output-dir: docs
+  
+execute: 
+  freeze: true
+  engine: knitr
+  port: 8877
+  cache: true
+
+website:
+  title: "Annik Sauer: ICMB portfolio"
+  back-to-top-navigation: true
+  page-navigation: true
+  navbar:
+    left:
+      - href: about.qmd
+        text: "About"
+      - href: index.qmd
+        text: "Assignment 1"
+  sidebar: 
+    collapse-level: 1
+    contents: 
+      - about.qmd
+      - index.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-link: true
+    code-copy: true
+    code-tools: true
+    code-fold: true
+    code-overflow: wrap
+    page-layout: full
+    css: styles.css
+
+editor: visual
